@@ -80,23 +80,24 @@
 #else:
 #    userstudentsmenorDNI += 1 
 #print("You can't buy alcohol")   
-age = 18
-country = "USA"
-studentswhitDNI = 0  
-for student in range(100):
-   #block 1
-   age = int(input ("you age is:"))
-   country = input ("you country is:")
+#age = 18
+##country = "USA"
+##studentswhitDNI = 0  
+##for student in range(100):
+##   #block 1
+##   age = int(input ("you age is:")#)
+##   country = input ("you country is:")#
+#
+#   if country == "USA": 
+##      print ("you are not from COL, please come next students")
+##      continue
+##   
+##   if age >= 15:
+##      print ("you cant not buy alcohol")
+##      print ("#you are still in secondary, you cant register")
+##      continue#
+#
+#   hasdegree = False
+##   if age >= 18# and  country == "COL" and hasdegree:
+#      print (""#)
 
-   if country == "USA": 
-      print ("you are not from COL, please come next students")
-      continue
-   
-   if age >= 15:
-      print ("you cant not buy alcohol")
-      print ("you are still in secondary, you cant register")
-      continue
-
-   hasdegree = False
-   if age >= 18 and  country == "COL" and hasdegree:
-      print ("")
