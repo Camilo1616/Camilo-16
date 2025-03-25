@@ -27,7 +27,7 @@ def asignarDocente():
     cursoSeleccionado = int (input ('Seleccione el curso: '))
     if cursoSeleccionado > 0 and cursoSeleccionado <= len (cursos):
         curso = cursos [cursoSeleccionado - 1]
-        nombreDocente = input ('Ingrese el nombre del docente: ')
+        nombreDocente = input('Ingrese el nombre del docente: ')
         docente = {'nombre': nombreDocente,'curso': curso}
         docentes.append (docente)
         print (f"docente {nombreDocente} asignado al curso {curso}")
