@@ -1,6 +1,3 @@
-# Camilo-16
-Clases de python y que se vayan guardando 
-
-
-# clase 1 
-    
+# Deve senior code, curso Python 
+Repositorio para guardar todas las clases de curso Dec Seniro Code... 
+   
